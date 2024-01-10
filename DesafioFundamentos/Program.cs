@@ -29,9 +29,10 @@ while (exibirMenu)
     Console.WriteLine("3 - Listar veículos");
     Console.WriteLine("4 - Encerrar");
 
-    switch (Console.ReadLine())
+    switch (opcao = Convert.ToString(Console.ReadLine()))
     {
         case "1":
+            
             es.AdicionarVeiculo();
             break;
 
